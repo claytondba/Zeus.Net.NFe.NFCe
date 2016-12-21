@@ -35,7 +35,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Schema;
 using NFe.Classes.Servicos.Tipos;
-using NFe.Utils.Excecoes;
+using NFe.Utils.Exceptions;
 
 namespace NFe.Utils.Validacao
 {
@@ -129,6 +129,10 @@ namespace NFe.Utils.Validacao
                 // Um erro ocorre se o documento XML inclui caracteres ilegais
                 // ou tags que não estão aninhadas corretamente
                 throw new Exception("Ocorreu o seguinte erro durante a validação XML:" + "\n" + err.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ocorreu o seguinte erro durante a validação XML:" + "\n" + ex.Message);
             }
             finally
             {

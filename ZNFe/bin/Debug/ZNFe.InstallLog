@@ -1,0 +1,207 @@
+﻿Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe.
+Confirmando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe.
+Remova o arquivo InstallState porque não há instaladores.
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe.
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Removendo a origem do EventLog ZNF-e.
+Ocorreu uma exceção durante a desinstalação do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Revertendo o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Ocorreu uma exceção durante a fase de reversão do instalador System.ServiceProcess.ServiceProcessInstaller.
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Revertendo o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Ocorreu uma exceção durante a fase de reversão do instalador System.ServiceProcess.ServiceProcessInstaller.
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Criando a origem de EventLog ZNF-e no log Application...
+Revertendo o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Restaurando o log de eventos para o estado anterior da origem ZNF-e.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Confirmando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Criando a origem de EventLog ZNF-e no log Application...
+Revertendo o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Restaurando o log de eventos para o estado anterior da origem ZNF-e.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Removendo a origem do EventLog ZNF-e.
+Ocorreu uma exceção durante a desinstalação do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Criando a origem de EventLog ZNF-e no log Application...
+Revertendo o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Restaurando o log de eventos para o estado anterior da origem ZNF-e.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Criando a origem de EventLog ZNF-e no log Application...
+Revertendo o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Restaurando o log de eventos para o estado anterior da origem ZNF-e.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Serviço ZNF-e foi instalado com êxito.
+Criando a origem de EventLog ZNF-e no log Application...
+Confirmando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Removendo a origem do EventLog ZNF-e.
+Serviço ZNF-e está sendo removido do sistema...
+Serviço ZNF-e foi removido com êxito do sistema.
+Tentativa de parar o serviço ZNF-e.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Serviço ZNF-e foi instalado com êxito.
+Criando a origem de EventLog ZNF-e no log Application...
+Confirmando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Removendo a origem do EventLog ZNF-e.
+Serviço ZNF-e está sendo removido do sistema...
+Serviço ZNF-e foi removido com êxito do sistema.
+Tentativa de parar o serviço ZNF-e.
+Instalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Instalando o serviço ZNF-e...
+Serviço ZNF-e foi instalado com êxito.
+Criando a origem de EventLog ZNF-e no log Application...
+Confirmando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Desinstalando o assembly 'D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.InstallLog
+   assemblypath = D:\Git\Zeus.Net.NFe.NFCe\ZNFe\bin\Debug\ZNFe.exe
+Removendo a origem do EventLog ZNF-e.
+Serviço ZNF-e está sendo removido do sistema...
+Serviço ZNF-e foi removido com êxito do sistema.
