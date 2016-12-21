@@ -316,7 +316,7 @@ namespace NFeMCInt
                 infNFe.pag = GetPagamento(infNFe.total.ICMSTot); //NFCe Somente  
 
             //if (infNFe.ide.mod == ModeloDocumento.NFCe)
-            infNFe.infAdic = new infAdic() { infCpl = _nfa.Tables["nfe_cab"].Rows[0]["infcpl"].ToString().RemoveAccents().ToUpper().Replace("\n",""), };
+            infNFe.infAdic = new infAdic() { infCpl = _nfa.Tables["nfe_cab"].Rows[0]["infcpl"].ToString().RemoveAccents().ToUpper().Replace("\n","").Replace("\r", ""), };
 
 
 

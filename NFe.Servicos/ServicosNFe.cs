@@ -77,7 +77,7 @@ using System.Net;
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
-using NFe.Utils.Exceptions;
+using NFe.Utils.Excecoes;
 
 namespace NFe.Servicos
 {
@@ -253,7 +253,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -313,7 +313,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -397,7 +397,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -479,7 +479,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -730,7 +730,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -803,7 +803,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -893,7 +893,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -953,7 +953,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -1027,8 +1027,10 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
+           
+
 
             var retornoXmlString = retorno.OuterXml;
             var retEnvio = new retEnviNFe().CarregarDeXmlString(retornoXmlString);
@@ -1087,7 +1089,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -1152,7 +1154,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;
@@ -1219,7 +1221,7 @@ namespace NFe.Servicos
             }
             catch (Exception ex)
             {
-                throw new ExecucaoException(ex.Message);
+                throw new ComunicacaoException(ex.Message);
             }
 
             var retornoXmlString = retorno.OuterXml;

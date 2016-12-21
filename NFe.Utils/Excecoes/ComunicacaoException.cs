@@ -30,63 +30,19 @@
 /* http://www.zeusautomacao.com.br/                                             */
 /* Rua Comendador Francisco josé da Cunha, 111 - Itabaiana - SE - 49500-000     */
 /********************************************************************************/
-using System.ComponentModel;
-using NFe.Utils.Annotations;
-using System.Xml.Serialization;
+using System;
 
-namespace NFe.Utils
+namespace NFe.Utils.Excecoes
 {
-    public class ConfiguracaoCertificado : INotifyPropertyChanged
+    /// <summary>
+    /// Utilize essa classe para determinar se houve problemas com a internet, durante o envio dos dados para um webservice da NFe
+    /// </summary>
+    public class ComunicacaoException : Exception
     {
-        private string _serial;
-        private string _arquivo;
-
         /// <summary>
-        ///     Nº de série do certificado digital
+        /// Houve problemas com a internet, durante o envio dos dados para um webservice da NFe
         /// </summary>
-        public string Serial
-        {
-            get { return _serial; }
-            set
-            {
-                if (value == _serial) return;
-                _serial = value;
-                if (!string.IsNullOrEmpty(value))
-                    Arquivo = null;
-                OnPropertyChanged("Serial");
-            }
-        }
-
-        /// <summary>
-        ///     Arquivo do certificado digital
-        /// </summary>
-        public string Arquivo
-        {
-            get { return _arquivo; }
-            set
-            {
-                if (value == _arquivo) return;
-                _arquivo = value;
-                if (!string.IsNullOrEmpty(value))
-                    Serial = null;
-                OnPropertyChanged("Arquivo");
-            }
-        }
-
-        /// <summary>
-        ///     Senha do certificado digital
-        /// </summary>
-        public string Senha { get; set; }
-        
-        [XmlIgnore]
-        public System.Security.Cryptography.X509Certificates.X509Certificate2 CertificadoCarregado { get; set; }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            if (PropertyChanged != null) PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        /// <param name="message"></param>
+        public ComunicacaoException(string message) : base(string.Format("Falha na rede internet:\n{0}", message)){}
     }
 }

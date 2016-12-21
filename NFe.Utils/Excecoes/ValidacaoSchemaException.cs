@@ -30,63 +30,23 @@
 /* http://www.zeusautomacao.com.br/                                             */
 /* Rua Comendador Francisco josé da Cunha, 111 - Itabaiana - SE - 49500-000     */
 /********************************************************************************/
-using System.ComponentModel;
-using NFe.Utils.Annotations;
-using System.Xml.Serialization;
+using System;
+using NFe.Utils.NFe;
 
-namespace NFe.Utils
+namespace NFe.Utils.Excecoes
 {
-    public class ConfiguracaoCertificado : INotifyPropertyChanged
+    /// <summary>
+    /// Utilize essa classe para determinar se houve erros de validação de schema XSD
+    /// Na biblioteca, são realizadas validações de schema XSD
+    /// <para>1 - No consumo de qualquer serviço, o pacote a ser enviado para a SEFAZ é validado, para garantir que está de acordo com a estrutura esperada</para>
+    /// <para>2 - No método de extensão <see cref="ExtNFe.Valida"/>, responsável por validar, contra o schema, um objeto NFe</para>    
+    /// </summary>
+    public class ValidacaoSchemaException : Exception
     {
-        private string _serial;
-        private string _arquivo;
-
         /// <summary>
-        ///     Nº de série do certificado digital
+        /// Houve erros de validação de schema XSD
         /// </summary>
-        public string Serial
-        {
-            get { return _serial; }
-            set
-            {
-                if (value == _serial) return;
-                _serial = value;
-                if (!string.IsNullOrEmpty(value))
-                    Arquivo = null;
-                OnPropertyChanged("Serial");
-            }
-        }
-
-        /// <summary>
-        ///     Arquivo do certificado digital
-        /// </summary>
-        public string Arquivo
-        {
-            get { return _arquivo; }
-            set
-            {
-                if (value == _arquivo) return;
-                _arquivo = value;
-                if (!string.IsNullOrEmpty(value))
-                    Serial = null;
-                OnPropertyChanged("Arquivo");
-            }
-        }
-
-        /// <summary>
-        ///     Senha do certificado digital
-        /// </summary>
-        public string Senha { get; set; }
-        
-        [XmlIgnore]
-        public System.Security.Cryptography.X509Certificates.X509Certificate2 CertificadoCarregado { get; set; }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            if (PropertyChanged != null) PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        /// <param name="message"></param>
+        public ValidacaoSchemaException(string message) : base(string.Format("Erros na validação:\n {0}", message)) {}
     }
 }
